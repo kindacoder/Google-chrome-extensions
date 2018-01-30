@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Motivate me to StartUp",
+  "description":"Simple extension that overrides new tab with Quotes",
+  "version": "1.0.0",
+  "icons":{"128":"logo_128.png"},
+  "browser_action": {
+          "default_icon":"logo.png",
+          "default_title": "Motivate me to startUp",
+          "default_popup": "popup.html"
+        },
+  "chrome_url_overrides" : {
+   "newtab": "index.html"
+ }
+}
